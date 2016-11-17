@@ -1,7 +1,8 @@
 import os
 import time
-
+# Set backup source
 source = ['C:\\Users\shawn.conrad\Projects\Python\Learn']
+# Set target backup
 target_dir = 'E:\\Backup'
 
 if not os.path.exists(target_dir):
